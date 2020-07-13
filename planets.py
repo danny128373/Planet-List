@@ -19,3 +19,11 @@ print(rocky_planets)
 # Being good amateur astronomers, we know that Pluto is now a dwarf planet, so use the del operation to remove it from the end of planet_list.
 del planet_list[-1]
 print(planet_list)
+
+spacecraft = [
+    ("Cassini", "Saturn"),
+    ("Viking", "Mars"),
+]
+
+for item in spacecraft:
+    print(f'{item[0]} visited {item[1]}')
